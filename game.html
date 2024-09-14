@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StonePaperScissorGame</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <marquee scrollamount="20"><h1 class="text">Stone Paper Scissors</h1></marquee>
+    <h2 id="result">Start match</h2>
+    <div class="container">
+        <div class="images">
+            <img id="img1" class="image" src="rock.jpg">
+            <img id="img2" class="image" src="paper.jpg">
+            <img id="img3" class="image" src="scissor.jpg">
+        </div>
+        <p id="who"></p>
+        <div class="score">
+            <p id="status" class="yourScore">0</p>
+            <p id="status" class="compScore">0</p>
+        </div>
+        <div class="scoreBoard">
+            <p id="head">You</p>
+            <p id="head">Comp</p>
+        </div>
+        <button id="reload">Reset Game</button>
+        <audio id="bgMusic" src="C:\Users\amalr\Documents\portfolio\Sakura-Girl-Daisy-chosic.com_.mp3"></audio>
+    </div>
+    <div class="audioButton">
+        <button id="playAudio"></button>
+    </div>
+</body>
+<script src="game.js"></script>
+</html>
