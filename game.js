@@ -19,11 +19,11 @@ const audio=document.querySelector("#bgMusic");
 let update=document.querySelector("#who");
 audioBtn.addEventListener("click",()=>{
     audio.play();
-    audioBtn.style.backgroundImage="url('icon.webp')";
+    audioBtn.style.backgroundImage="url('https://res.cloudinary.com/dyf3sd2ee/image/upload/v1734248560/icon_tl5qdt.webp')";
 })
 audioBtn.addEventListener("dblclick",()=>{
     audio.pause();
-    audioBtn.style.backgroundImage="url('mute.png')";
+    audioBtn.style.backgroundImage="url('https://res.cloudinary.com/dyf3sd2ee/image/upload/v1734248561/mute_aqh5aa.png')";
 })
 
 resetBtn.addEventListener("click",()=>{

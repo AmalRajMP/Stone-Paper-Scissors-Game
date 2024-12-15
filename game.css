@@ -4,7 +4,7 @@
     padding:0;
 }
 body{
-    background:url("gameBg.jpg");
+    background:url("https://res.cloudinary.com/dyf3sd2ee/image/upload/v1734248561/gameBg_gy5d0w.jpg");
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -81,7 +81,7 @@ h2{
 }
 #playAudio
 {
-    background:url("mute.png");
+    background:url("https://res.cloudinary.com/dyf3sd2ee/image/upload/v1734248561/mute_aqh5aa.png");
     border-radius:50%;
     height:50px;
     width:50px;
